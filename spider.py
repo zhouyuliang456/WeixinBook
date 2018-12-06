@@ -9,7 +9,7 @@ base_url = 'http://weixin.sogou.com/weixin?'
 def get_html(url):
     try:
         response = request.get(url)
-    except:
+    except:  sdsdsds
 
 def get_index(keyword , page):
     data= {
