@@ -6,8 +6,9 @@ import requests
 
 base_url = 'http://weixin.sogou.com/weixin?'
 ## 添加注释
-# 1
-# 2
+#
+#
+
 def get_html(url):
     try:
         response = request.get(url)
